@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/welcomePageFragment"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/welcomePageFragment"
+        android:name="edu.msudenver.cs3013.project2_s24.Welcome_PageFragment"
+        android:label="Welcome_PageFragment">
+        <action
+            android:id="@+id/welcomePageFragment_to_newsFragment"
+            app:destination="@id/newsListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="edu.msudenver.cs3013.project2_s24.NewsFragment"
+        android:label="Username_InformationFragment">
+    </fragment>
+</navigation>

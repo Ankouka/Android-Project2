@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Project2_S24</string>
+    <string name="title1">Lastest News</string>
+    <string name="title2">Welcome to the Global News Hub</string>
+    <string name="subtitle">This News Hub covers top stories across the world
+        ranging from Politics, Economics, Sports, Technology, Education, Entertainment,
+    Health</string>
+
+    <string name="next_button1">NEXT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
